@@ -1,0 +1,65 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  gap: 0 10px;
+}
+
+.chevron :hover {
+  cursor: pointer;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 350px;
+}
+
+.dotContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  color: gray;
+}
+
+.dot :hover {
+  cursor: pointer;
+}
+
+.image.main {
+}
+
+.image.secondary {
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+.image.hide {
+  display: none;
+}
